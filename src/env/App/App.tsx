@@ -1,12 +1,10 @@
 import type {FC} from 'react';
-
-import {Counter} from '@/lib';
-import './index.css';
-
+import Calendar from '@/lib/calendar/Calendar';
+import "@/index.css"
 const App: FC = () => {
     return (
-        <div>
-            <Counter />
+        <div className="">
+        <Calendar/>
         </div>
     );
 };
